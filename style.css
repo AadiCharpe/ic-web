@@ -1,0 +1,42 @@
+html {
+    background-color: rgb(30, 30, 30);
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+    font-family: sans-serif;
+}
+
+.input {
+    font-size: large;
+}
+
+.value {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+#values {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h2 {
+    color: white;
+}
+
+#submit {
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    scale: 2;
+}
