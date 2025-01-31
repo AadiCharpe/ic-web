@@ -19,7 +19,11 @@
                 for(let i = 1; i <= t; i++) {
                     s += ac;
                     s += s * (ir / 100);
-                    text.value += "Year " + i + " Balance: $" + s + "\n";
+                    let fn = new Intl.NumberFormat('en-US', {
+                    style: 'currency',
+                    currency: 'USD'
+                    }).format(s);
+                    text.value += "Year " + i + " Balance: " + fn + "\n";
                 }
             }
         </script>
