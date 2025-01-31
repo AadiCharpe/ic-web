@@ -40,3 +40,11 @@ h2 {
     margin-top: 3%;
     scale: 2;
 }
+
+textarea {
+    resize: none;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+}
