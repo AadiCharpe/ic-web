@@ -37,7 +37,7 @@ h2 {
 #submit {
     display: block;
     margin: auto;
-    margin-top: 3%;
+    margin-top: 2%;
     scale: 2;
 }
 
@@ -47,4 +47,6 @@ textarea {
     margin-left: 30%;
     margin-right: 30%;
     width: 40%;
+    font-family: sans-serif;
+    font-size: large;
 }
